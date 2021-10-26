@@ -5,6 +5,11 @@
   "repository": "git@github.com:leandrotk/ts-template.git",
   "author": "TK <leandrotk100@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "prettier:check": "prettier --check 'src/**/*.ts'",
+    "prettier:fix": "prettier --write 'src/**/*.ts'",
+    "typecheck": "tsc"
+  },
   "devDependencies": {
     "@types/node": "^16.11.6",
     "prettier": "^2.4.1",
