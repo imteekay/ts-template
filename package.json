@@ -1,0 +1,13 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "TypeScript Template",
+  "repository": "git@github.com:leandrotk/ts-template.git",
+  "author": "TK <leandrotk100@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
