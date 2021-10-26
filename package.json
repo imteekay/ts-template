@@ -7,12 +7,18 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
+    "lint": "eslint ./src --ext .ts",
+    "lint:fix": "eslint ./src --ext .ts --fix",
     "prettier:check": "prettier --check 'src/**/*.ts'",
     "prettier:fix": "prettier --write 'src/**/*.ts'",
     "typecheck": "tsc"
   },
   "devDependencies": {
     "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.14",
     "prettier": "^2.4.1",
     "ts-node": "^10.4.0",
