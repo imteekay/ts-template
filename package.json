@@ -6,14 +6,17 @@
   "author": "TK <leandrotk100@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "nodemon",
     "prettier:check": "prettier --check 'src/**/*.ts'",
     "prettier:fix": "prettier --write 'src/**/*.ts'",
     "typecheck": "tsc"
   },
   "devDependencies": {
     "@types/node": "^16.11.6",
+    "nodemon": "^2.0.14",
     "prettier": "^2.4.1",
     "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.11.0",
     "typescript": "^4.4.4"
   }
 }
